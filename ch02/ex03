@@ -1,0 +1,17 @@
+#!/usr/bin/env perl
+
+chomp($radius=<STDIN>);
+
+$pi=3.141592654;
+
+if($radius < 0)
+{
+	$cf=0;
+}
+else 
+{
+	$cf=2*$pi*$radius;
+}
+
+print "the circumference is $cf\n";
+

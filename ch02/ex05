@@ -1,0 +1,7 @@
+#!/usr/bin/env perl
+
+chomp($str=<STDIN>);
+chomp($num=<STDIN>);
+
+print "str = $str\tnum = $num\n";
+print $str x $num . "\n";

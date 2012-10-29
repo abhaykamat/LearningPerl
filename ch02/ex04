@@ -1,0 +1,8 @@
+#!/usr/bin/env perl
+
+chomp($a=<STDIN>);
+chomp($b=<STDIN>);
+
+print "a = $a\tb=$b\n";
+
+print "a x b = ". $a*$b."\n";
