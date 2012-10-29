@@ -1,0 +1,3 @@
+# .gitigore seems to require this line of comment
+# git reset HEAD solves the problem of git igoring .gitignore
+*~
